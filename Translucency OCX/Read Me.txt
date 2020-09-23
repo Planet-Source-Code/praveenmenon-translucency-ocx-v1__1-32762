@@ -1,0 +1,37 @@
+Translucency OCX - V1.0
+
+credits
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Unknown Author for the idea of BitBlt-ing the portion of the screen to the form
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Usage
+1) Add the usercontrol to y'r project.
+2) Place an Instance of the usercontrol in the Parent Form.
+3) The Control is Named Translucency1 by default.
+4) call translucency1.setTranclucence in Forms' Load event.
+5) Run. (Not from your chair...)
+=======================================================================================================
+some enhancements u can do on the parent form
+1) to make the translucency redraw as the parent form is dragged
+        subclass the form to know when the parent form is dragged, and use translucency1.drawTranslucency
+2) to make the translucency work on resize
+       write translucency1.drawTranslucency in the resize event of parent form
+=======================================================================================================
+
+
+known errors...
+
+when we edit the parent form's properties and try running the application, the form is not translucent when the first time we run it
+the Forms ' translucency is not perfect when the form resizes or moves or changes state
+
+guys, pls report the bugs...
+i guess i need feedback to do more work...
+if the source gave u some spark of ideas or taught you new things, i consider the work was not futile...
+also if u think this ain't that bad for a beginner, pls vote for me...
+
+thanks and luv,
+Praveen
+
+Praveenc_1999@yahoo.com
